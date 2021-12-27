@@ -1,4 +1,4 @@
-# assembly-language
+# Assembly Language
 
  Project with temperature conversion program and various examples written in assembly.
 
