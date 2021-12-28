@@ -13,7 +13,7 @@ MessageBoxA		proto :dword, :dword, :dword, :dword
 	TemperatureResult		DW		?	; Holds the resulting temperature for output.
 	STD_INPUT_HANDLE		equ		-10
 	STD_OUTPUT_HANDLE		equ		-11
-	bufSize = 80
+	bufSize 				= 		80
  	inputHandle				DWORD	?
  	buffer					db		bufSize		dup(?)
  	bytes_read				DWORD	?
